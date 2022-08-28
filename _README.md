@@ -9,13 +9,13 @@
 
 ## Elastic Beanstalk
   An environment created with platform Node.js -V 14.15  to host the api (back-end) of the app and has health status OK
-  you can visit it from here :
+  you can visit it from here : back-end link
   http://Proudagram-env.eba-uyp3pwqp.us-east-1.elasticbeanstalk.com
 
-  ![Alt text]()
+  ![Alt text](./project-diagram/aws-env-health.png)
 
 ## S3 Bucket
-  A S3 bucket created to host a the front-end as static hosting and the Angular front-end There you can visit it from here :
+  A S3 bucket created to host a the front-end as static hosting and the Angular front-end There you can visit it from here : front-end link
   http://udagram-gh.s3-website-us-east-1.amazonaws.com
   
 ## Circle-Ci
@@ -25,4 +25,4 @@
   ![Alt text](./project-diagram/aws-circle-ci.jpeg)
 
 ## Screenshot for last build and deploy from the pipline
-![Alt text](./project-diagram/circleci.png)
+  ![Alt text](./project-diagram/circleci.png)
