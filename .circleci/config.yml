@@ -68,6 +68,7 @@ jobs:
             echo "# api has been deployed"
             npm run frontend:deploy
             echo "# frontend has been deployed"
+      - run:
             
 workflows:
   udagram:
